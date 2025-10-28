@@ -1,14 +1,12 @@
 {
   "name": "elevatelabsixthtask",
-  "homepage": "https://gauravlomash77.github.io/Elevatelabsixthtask/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
@@ -29,7 +27,6 @@
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
-    "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
