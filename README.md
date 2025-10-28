@@ -22,6 +22,7 @@ https://gauravlomash77.github.io/Elevatelabsixthtask/
 npm install
 
 ### Configure Vite for Relative Paths
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -29,6 +30,7 @@ export default defineConfig({
   plugins: [react()],
   base: './',
 })
+
 
 ### Build the Project
 npm run build
