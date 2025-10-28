@@ -1,15 +1,16 @@
 {
   "name": "elevatelabsixthtask",
+  "homepage": "https://gauravlomash77.github.io/Elevatelabsixthtask/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "npm run build && gh-pages -d dist"
+},
+ "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "framer-motion": "^12.23.24",
     "react": "^19.1.1",
